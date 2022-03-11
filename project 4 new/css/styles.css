@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  div {
+    background: rgba(255, 255, 255, 0.25);
+  }
+
+  h1 {
+    color: #F5F2EB;
+    font-family: 'Fredoka One', cursive;
+  }
+  
+  .hours {
+    background:#BC5D03;
+    margin-left: 3rem;
+    padding: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #F5F2EB
+  }
+
+  section {
+      font-family: lato;
+      color: #7F4106;
+      margin-left: 3rem;
+  }
+
+  h3 {
+      font-family: fredoka one;
+      font-size:
+  }
+  
+footer {
+    font-family: 'Lato', sans-serif;
+    background: #7F4106;
+    padding: 1rem;
+    color: #F5F2EB
+}
+
+  section {
+    padding: 5rem 0;
+  }
+  
+  @media screen and (min-width: 800px) {
+    section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  
