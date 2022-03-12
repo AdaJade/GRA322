@@ -10,66 +10,73 @@
     object-fit: cover;
   }
   
-  div {
-    background: rgba(255, 255, 255, 0.25);
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F2EB;
+    font-family: lato;
   }
 
   h1 {
     color: #F5F2EB;
     font-family: 'Fredoka One', cursive;
+    z-index: 100;
+    position: relative;
   }
   
   .hours {
     background:#BC5D03;
-    margin-left: 3rem;
-    padding: 1rem;
+    margin-left: 5rem;
+    padding: 2rem;
     font-family: 'Lato', sans-serif;
     color: #F5F2EB
   }
 
   section {
-      font-family: lato;
-      color: #7F4106;
-      margin-left: 3rem;
+    font-family: lato;
+    color: #7F4106;
+    margin-left: 5rem;
   }
 
   h3 {
-      font-family: fredoka one;
-      font-size: ;
-     }
+    font-family: fredoka one;
+    font-size: 50px;
+  }
 
-     table {
-        width: 100%;
-      }
-      
-      tr {
-        border-bottom: 1px solid black;
-      }
-      
-      th {
-        background: #f2f2f2;
-        padding: 1rem;
-        text-align: left;
-      }
-      
-      td {
-        padding: 1rem;
-      }
-      
-      .price {
-        font-weight: bold;
-      }
+  h4 {
+    background-color: #BC5D03;
+    color: #F5F2EB;
+    font-size: 30px;
+    padding: 2rem;
+  }
 
-  
-footer {
-    font-family: 'Lato', sans-serif;
-    background: #7F4106;
-    padding: 1rem;
-    color: #F5F2EB
-}
+  table {
+    width: 50%;
+    color: #7F4106;
+    margin-bottom: 5rem;
+    }
+      
+    th {
+      text-align: left;
+      }
+      
+    td {
+
+      }
+      
+    .price {
+      font-weight: bold;
+    }
 
   section {
-    padding: 5rem 0;
+    padding: 3rem 0;
+  }
+
+  footer {
+    font-family: 'Lato', sans-serif;
+    background: #7F4106;
+    padding: 2rem;
+    color: #F5F2EB;
   }
   
   @media screen and (min-width: 800px) {
@@ -78,5 +85,3 @@ footer {
       grid-template-columns: 1fr 1fr;
     }
   }
-  
-  
