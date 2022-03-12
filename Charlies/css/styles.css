@@ -2,12 +2,13 @@
     box-sizing: border-box;
   }
 
-  header {
+  header img {
     display: flex;
     justify-content: flex-end;
     height: 100%;
     width: 100%;
     object-fit: cover;
+    margin-bottom: 5rem;
   }
   
   body {
@@ -18,15 +19,21 @@
   }
 
   h1 {
+    display: inline;
+    font-size: 80px;
     color: #F5F2EB;
     font-family: 'Fredoka One', cursive;
     z-index: 100;
     position: relative;
+    text-align: left;
+    margin-right: 5rem;
+
   }
   
   .hours {
     background:#BC5D03;
     margin-left: 5rem;
+    margin-bottom: 5rem;
     padding: 2rem;
     font-family: 'Lato', sans-serif;
     color: #F5F2EB
@@ -41,6 +48,7 @@
   h3 {
     font-family: fredoka one;
     font-size: 50px;
+    margin-bottom: 5rem;
   }
 
   h4 {
@@ -48,6 +56,15 @@
     color: #F5F2EB;
     font-size: 30px;
     padding: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  h5 {
+    background-color: #BC5D03;
+    color: #F5F2EB;
+    font-size: 30px;
+    padding: 2rem;
+    margin-bottom: 5rem;
   }
 
   table {
@@ -61,16 +78,16 @@
       }
       
     td {
-
+      text-align: left;
       }
       
     .price {
       font-weight: bold;
     }
-
-  section {
-    padding: 3rem 0;
-  }
+    
+    h6 {
+      font-size: 30px;
+    }
 
   footer {
     font-family: 'Lato', sans-serif;
