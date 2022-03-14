@@ -2,12 +2,14 @@
     box-sizing: border-box;
   }
 
-  header img {
+  header {
+    align-items: flex-end;
+    background-image: url(../pouring-coffee.jpg);
+    background-size: cover;
     display: flex;
     justify-content: flex-end;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    padding: 5rem;
+    height: 80vh;
     margin-bottom: 5rem;
   }
   
@@ -18,22 +20,19 @@
     font-family: lato;
   }
 
-  h1 {
+  .title {
     display: inline;
-    font-size: 80px;
+    font-size: 50px;
     color: #F5F2EB;
     font-family: 'Fredoka One', cursive;
-    z-index: 100;
     position: relative;
     text-align: left;
     margin-right: 5rem;
-
   }
   
   .hours {
     background:#BC5D03;
     margin-left: 5rem;
-    margin-bottom: 5rem;
     padding: 2rem;
     font-family: 'Lato', sans-serif;
     color: #F5F2EB
@@ -45,26 +44,29 @@
     margin-left: 5rem;
   }
 
-  h3 {
+  .menu {
     font-family: fredoka one;
     font-size: 50px;
-    margin-bottom: 5rem;
+    padding: 5rem;
+    color:#7F4106;
   }
 
-  h4 {
+  .drinks {
     background-color: #BC5D03;
     color: #F5F2EB;
     font-size: 30px;
     padding: 2rem;
     margin-bottom: 5rem;
+    max-width: 15rem;
   }
 
-  h5 {
+  .food {
     background-color: #BC5D03;
     color: #F5F2EB;
     font-size: 30px;
     padding: 2rem;
     margin-bottom: 5rem;
+    max-width: 15rem;
   }
 
   table {
@@ -83,11 +85,12 @@
       
     .price {
       font-weight: bold;
-    }
+  }
     
-    h6 {
-      font-size: 30px;
-    }
+  .directions {
+    color: #7F4106;
+    margin-top: 5rem;
+  }
 
   footer {
     font-family: 'Lato', sans-serif;
@@ -95,7 +98,9 @@
     padding: 2rem;
     color: #F5F2EB;
   }
-  
+
+
+
   @media screen and (min-width: 800px) {
     section {
       display: grid;
