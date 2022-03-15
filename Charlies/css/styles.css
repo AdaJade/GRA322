@@ -7,106 +7,144 @@
     background-image: url(../pouring-coffee.jpg);
     background-size: cover;
     display: flex;
-    justify-content: flex-end;
-    padding: 5rem;
     height: 80vh;
+    justify-content: flex-end;
     margin-bottom: 5rem;
+    padding: 5rem;
   }
   
   body {
-    margin: 0;
-    padding: 0;
     background-color: #F5F2EB;
     font-family: lato;
+    margin: 0;
+    padding: 0;
   }
 
   .title {
-    display: inline;
-    font-size: 50px;
     color: #F5F2EB;
+    display: inline;
     font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    margin-right: 1rem;
     position: relative;
     text-align: left;
-    margin-right: 5rem;
+    max-width: 500px;
+  }
+  .title p1 {
+    font-size: 30px;
+    display: inline;
+  }
+  .title p2 {
+    font-size: 40px;
+    display: inline;
   }
   
   .hours {
     background:#BC5D03;
-    margin-left: 5rem;
-    padding: 2rem;
+    color: #F5F2EB;
     font-family: 'Lato', sans-serif;
-    color: #F5F2EB
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+  }
+  .hours h2 {
+    font-size: 30px;
   }
 
   section {
-    font-family: lato;
     color: #7F4106;
+    font-family: lato;
     margin-left: 5rem;
   }
 
+  p {
+    line-height: 2.5;
+    padding-right: 5rem;
+  }
+
   .menu {
-    font-family: fredoka one;
-    font-size: 50px;
-    padding: 5rem;
     color:#7F4106;
+    font-family: fredoka one;
+    font-size: 40px;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  section.menu-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .drinks {
     background-color: #BC5D03;
     color: #F5F2EB;
-    font-size: 30px;
+    margin-bottom: 3rem;
+    max-width: 13rem;
     padding: 2rem;
-    margin-bottom: 5rem;
-    max-width: 15rem;
+  }
+  .drinks h4 {
+    font-size: 30px;
+    padding-left: 3rem;
   }
 
   .food {
     background-color: #BC5D03;
     color: #F5F2EB;
-    font-size: 40px;
-    padding: 2rem;
     margin-bottom: 5rem;
-    max-width: 15rem;
+    max-width: 13rem;
+    padding: 2rem;
+  }
+  .food h5 {
+    font-size: 30px;
+    padding-left: 3rem;
   }
 
   table {
-    width: 50%;
     color: #7F4106;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 5rem;
-    grid-template-columns: 1 fr 1fr 1fr;
-    }
+    width: 100%;
+  }
       
-    th {
-      text-align: left;
-      font-size: 20px;
-      }
+  th {
+    font-size: 20px;
+    text-align: left;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
       
-    td {
-      text-align: left;
-      }
+  td {
+    text-align: left;
+    padding-bottom: 0.5rem;
+  }
       
-    .price {
-      font-weight: bold;
+  .price {
+    font-weight: bold;
   }
     
   .directions {
     color: #7F4106;
     margin-top: 5rem;
+    margin-bottom: 5rem;
   }
-
+  .directions h6 {
+    font-size: 30px;
+    padding-bottom: 1rem;
+  }
   
   footer {
-    font-family: 'Lato', sans-serif;
     background: #7F4106;
-    padding: 1rem;
     color: #F5F2EB;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    padding-left: 5rem;
   }
 
   .fa-facebook-square {
     color: #F5F2EB;
     font-size: 25px;
-    padding: 1rem;
     margin-left: 50rem;
+    padding: 1rem;
     text-align: right;
   }
 
