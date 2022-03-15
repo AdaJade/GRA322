@@ -63,7 +63,7 @@
   .food {
     background-color: #BC5D03;
     color: #F5F2EB;
-    font-size: 30px;
+    font-size: 40px;
     padding: 2rem;
     margin-bottom: 5rem;
     max-width: 15rem;
@@ -73,10 +73,12 @@
     width: 50%;
     color: #7F4106;
     margin-bottom: 5rem;
+    grid-template-columns: 1 fr 1fr 1fr;
     }
       
     th {
       text-align: left;
+      font-size: 20px;
       }
       
     td {
@@ -92,14 +94,35 @@
     margin-top: 5rem;
   }
 
+  
   footer {
     font-family: 'Lato', sans-serif;
     background: #7F4106;
-    padding: 2rem;
+    padding: 1rem;
     color: #F5F2EB;
   }
 
+  .fa-facebook-square {
+    color: #F5F2EB;
+    font-size: 25px;
+    padding: 1rem;
+    margin-left: 50rem;
+    text-align: right;
+  }
 
+  .fa-twitter {
+    color:#F5F2EB;
+    font-size: 25px;
+    padding: 1rem;
+    text-align: right;
+  }
+
+  .fa-instagram {
+    color: #F5F2EB;
+    font-size: 25px;
+    padding: 1rem;
+    text-align: right;
+  }
 
   @media screen and (min-width: 800px) {
     section {
