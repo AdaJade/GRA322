@@ -1,44 +1,87 @@
 .current-page {
-    font-weight: bold;
+  font-weight: bold;
 }
-
-
 
 
 
 header {
-    background-color: #B6D3C4;
-    background-size: cover;
-    display: flex;
-    height: 20vh;
-    justify-content: flex-end;
-    margin-bottom: 6rem;
-    position: relative;
+  background-color: #fff;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  height: 20vh;
+  justify-content: flex-start;
+  position: relative;
+  display: flex;
+}
+
+h1 {
+padding-left: 5rem;
+padding-top: 3rem;
+
+}
+
+.nav {
+  color: #000;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #000
+}
+
+a:hover{
+color: #b2b2b2;
+transition: all 0.2s ease 0s;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  padding-right: 5rem;
+  padding-top: 3rem;
 }
 
 body {
-    background-color: #fff;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: 1rem;
+  padding: 0;
 }
 
 p {
-    line-height: 2.5;
-    padding-right: 6rem;
-    color: #365C69;
-    font-size: 15pt;
-  }
+  line-height: 2.5;
+  padding-right: 6rem;
+  color: #000;
+  font-size: 12pt;
 
-footer {
-    background: #fff;
-    color: #5E9EA1;
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    padding: 1rem;
-    padding-left: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 2.5rem;
 }
 
+img {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+.two-column-grid {
+  grid-template-columns: 2fr 2fr;
+}
+
+
+footer {
+  background: #fff;
+  color: #000;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10pt;
+  padding-left: 5rem;
+  margin-bottom: 5rem;
+}
 
 
 
@@ -57,177 +100,3 @@ footer {
         grid-template-columns: 2fr 2fr;
     }
 }
-
-
-
-
-
-
-
-
-* {
-    box-sizing: border-box;
-  }
-
-  header:after {
-    background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0),
-      60%,
-      rgba(108, 83, 60, 1)
-    );
-    content: " ";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 0;
-  }
-
-  .title {
-    color: #F5F2EB;
-    display: inline;
-    font-family: 'Fredoka One', cursive;
-    font-size: 50px;
-    line-height: 1.15;
-    position: relative;
-    text-align: left;
-    max-width: 550px;
-    z-index: 1;
-    padding-bottom: 6rem;
-    padding-right: 6rem;
-  }
-  .est {
-    font-size: 25px;
-    display: inline;
-    max-width: 250px;
-  }
-  .title p2 {
-    font-size: 30px;
-    display: inline;
-    max-width: 250px;
-  }
-  
-  .hours {
-    background:#BC5D03;
-    color: #F5F2EB;
-    font-family: 'Lato', sans-serif;
-    margin-left: 8rem;
-    margin-bottom: 3rem;
-    padding: 2.5rem;
-    margin-top: 3rem;
-  }
-  .hours h2 {
-    font-size: 30px;
-  }
-
-  section {
-    color: #7F4106;
-    font-family: lato;
-    margin-left: 6rem;
-  }
-
-  .menu {
-    color:#7F4106;
-    font-family: fredoka one;
-    font-size: 40px;
-    padding-left: 6rem;
-    padding-bottom: 3rem;
-  }
-
-  section.menu-wrapper {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .drinks {
-    background-color: #BC5D03;
-    color: #F5F2EB;
-    margin-bottom: 3rem;
-    max-width: 14rem;
-    padding: 2rem;
-  }
-  .drinks h4 {
-    font-size: 30px;
-    padding-left: 4rem;
-  }
-
-  .food {
-    background-color: #BC5D03;
-    color: #F5F2EB;
-    margin-bottom: 3rem;
-    max-width: 14rem;
-    padding: 2rem;
-  }
-  .food h5 {
-    font-size: 30px;
-    padding-left: 4rem;
-  }
-
-  table {
-    color: #7F4106;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 5rem;
-    width: 100%;
-  }
-      
-  th {
-    font-size: 20px;
-    text-align: left;
-    padding-right: 1rem;
-    padding-bottom: 2rem;
-  }
-      
-  td {
-    text-align: left;
-    padding-bottom: 0.5rem;
-  }
-      
-  .price {
-    font-weight: bold;
-  }
-    
-  .directions {
-    color: #7F4106;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-  .directions h6 {
-    font-size: 30px;
-    padding-bottom: 1rem;
-  }
-
-  .fa-facebook-square {
-    color: #F5F2EB;
-    font-size: 25px;
-    margin-left: 50rem;
-    padding: 1rem;
-    text-align: right;
-  }
-
-  .fa-twitter {
-    color:#F5F2EB;
-    font-size: 25px;
-    padding: 1rem;
-    text-align: right;
-  }
-
-  .fa-instagram {
-    color: #F5F2EB;
-    font-size: 25px;
-    padding: 1rem;
-    text-align: right;
-  }
-
-  @media screen and (min-width: 800px) {
-
-    section {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
-
-    .hours {
-      margin-top: 0;
-    }
-
-  }
