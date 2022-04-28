@@ -27,7 +27,6 @@ h2 {
   padding-bottom: 2rem;
 }
 
-
 a {
   text-decoration: none;
   color: #000
@@ -36,6 +35,7 @@ a {
 a:hover{
   color: #b2b2b2;
   transition: all 0.2s ease 0s;
+  cursor: none;
 }
 
 ul {
@@ -60,6 +60,7 @@ body {
   background-color: red;
   border-radius: 50%;
   margin-bottom: 5rem;
+  position: fixed;
 }
 
 p {
