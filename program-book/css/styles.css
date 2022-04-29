@@ -4,17 +4,16 @@
 }
 
 header {
-  background-color: #fff;
-  background-size: cover;
+  background-image: url(.../images/lines-header.png);
+  background-repeat: repeat-x;
+  background-position: center;
   font-family: 'Roboto', sans-serif;
-  display: flex;
   justify-content: flex-start;
   position: relative;
   display: flex;
   display: inline;
   padding-top: 3rem;
   padding-bottom: 5rem;
-  background-image: ;
 }
 
 h1 {
@@ -25,6 +24,14 @@ h1 {
 h2 {
   padding-left: 5rem;
   padding-bottom: 2rem;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  cursor: none;
+  height: 1vh;
 }
 
 a {
@@ -45,14 +52,6 @@ ul {
   justify-content: space-between;
 }
 
-body {
-  background-color: #fff;
-  font-family: 'Roboto', sans-serif;
-  padding: 0;
-  cursor: none;
-  height: 1vh;
-}
-
 .pointed{
   color: #fff;
   width: 20px;
@@ -61,6 +60,8 @@ body {
   border-radius: 50%;
   margin-bottom: 5rem;
   position: fixed;
+  z-index: 100;
+  cursor: none;
 }
 
 p {
