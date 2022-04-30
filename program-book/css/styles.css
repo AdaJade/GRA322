@@ -8,14 +8,14 @@ html {
 }
 
 header {
-  background-image: url(.../images/lines-header.png);
+  background-image: url(/images/lines-header.png);
   background-repeat: repeat-x;
   background-position: center;
   font-family: 'Roboto', sans-serif;
   justify-content: flex-start;
   position: relative;
   display: flex;
-  display: inline;
+  background-size: contain;
   padding-top: 3rem;
   padding-bottom: 5rem;
   cursor: none;
@@ -23,8 +23,9 @@ header {
 
 h1 {
   padding-left: 5rem;
-  padding-top: 3rem;
+
   cursor: none;
+  z-index: 100;
 }
 
 h2 {
@@ -58,7 +59,6 @@ ul {
   padding-left: 4rem;
   padding-right: 5rem;
   padding-bottom: 5rem;
-  padding-top: 5rem;
   justify-content: space-between;
   flex-wrap: wrap;
   cursor: none;
