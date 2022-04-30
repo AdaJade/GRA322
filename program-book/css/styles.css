@@ -3,6 +3,10 @@
   font-size: larger;
 }
 
+html {
+  cursor: none;
+}
+
 header {
   background-image: url(.../images/lines-header.png);
   background-repeat: repeat-x;
@@ -14,24 +18,27 @@ header {
   display: inline;
   padding-top: 3rem;
   padding-bottom: 5rem;
+  cursor: none;
 }
 
 h1 {
   padding-left: 5rem;
   padding-top: 3rem;
+  cursor: none;
 }
 
 h2 {
   padding-left: 5rem;
   padding-bottom: 2rem;
+  cursor: none;
 }
 
 body {
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
   padding: 0;
-  cursor: none;
   height: 1vh;
+  cursor: none;
 }
 
 a {
@@ -48,8 +55,18 @@ a:hover{
 ul {
   list-style: none;
   display: flex;
-  padding: 5rem;
+  padding-left: 4rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   justify-content: space-between;
+  flex-wrap: wrap;
+  cursor: none;
+}
+
+li {
+  margin: 1rem;
+  cursor: none;
 }
 
 .pointed{
@@ -71,17 +88,20 @@ p {
   margin-bottom: 5rem;
   margin-left: 5rem;
   margin-right: 5rem;
+  cursor: none;
 }
 
 img {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   padding-bottom: 5rem;
+  cursor: none;
 }
 
 .two-column-grid {
   display: grid;
   grid-template-columns: 1fr;
+  cursor: none;
 }
 
 footer {
@@ -91,8 +111,9 @@ footer {
   font-family: 'Roboto', sans-serif;
   font-size: 12pt;
   padding-left: 5rem;
-  padding-bottom: 5rem;
-  position: fixed;
+  padding-bottom: 3rem;
+  z-index: 100;
+  cursor: none;
 }
 
 
