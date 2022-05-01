@@ -65,11 +65,11 @@
     color: #F5F2EB;
     font-family: 'Lato', sans-serif;
     margin-left: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
     padding-left: 2.5rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-    margin-top: 3rem;
-    margin-bottom: 6rem;
   }
   .hours h2 {
     font-size: 30px;
@@ -84,6 +84,10 @@
   p {
     line-height: 2.5;
     padding-right: 6rem;
+  }
+
+  .description {
+    padding-bottom: 5rem;
   }
 
   .menu {
@@ -125,7 +129,7 @@
   table {
     color: #7F4106;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
     width: 100%;
   }
       
@@ -140,7 +144,7 @@
     text-align: left;
     padding-bottom: 0.5rem;
   }
-      
+
   .price {
     font-weight: bold;
   }
@@ -176,6 +180,8 @@
     margin-left: 50rem;
     padding: 1rem;
     text-align: right;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
   }
 
   .fa-twitter {
@@ -183,6 +189,8 @@
     font-size: 25px;
     padding: 1rem;
     text-align: right;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
   }
 
   .fa-instagram {
@@ -190,20 +198,27 @@
     font-size: 25px;
     padding: 1rem;
     text-align: right;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
   }
 
   @media screen and (min-width: 768px) {
+    section {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .hours {
+      margin-top: 0;
+      margin-left: 20rem;
+    }
+  }
+  @media screen and (min-width: 1000px) {
     section {
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
     .hours {
       margin-top: 0;
-    }
-  }
-  @media screen and (min-width: 1440px) {
-    section {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      margin-left: 5rem;
     }
   }
