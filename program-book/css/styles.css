@@ -79,6 +79,8 @@ li {
   z-index: 100;
   cursor: none;
   position: fixed;
+  top: 0;
+  left: 0;
 }
 
 p {

@@ -166,46 +166,30 @@
   footer {
     background: #7F4106;
     color: #F5F2EB;
-    display: flex inline cover;
+    display: flex;
     flex-wrap: nowrap;
     font-family: 'Lato', sans-serif;
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 5rem;
+    justify-content: space-between;
   }
 
-  .fa-facebook-square {
+  .icons {
     color: #F5F2EB;
     font-size: 25px;
-    margin-left: 50rem;
-    padding: 1rem;
     text-align: right;
-    flex-wrap: nowrap;
     justify-content: flex-end;
-  }
-
-  .fa-twitter {
-    color:#F5F2EB;
-    font-size: 25px;
-    padding: 1rem;
-    text-align: right;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-  }
-
-  .fa-instagram {
-    color: #F5F2EB;
-    font-size: 25px;
-    padding: 1rem;
-    text-align: right;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
+    display: flex;
+    padding-right: 5rem;
+    padding-top: 1rem;
   }
 
   @media screen and (min-width: 768px) {
     section {
       display: grid;
       grid-template-columns: 1fr;
+      align-items: start;
     }
     .hours {
       margin-top: 0;
@@ -216,6 +200,7 @@
     section {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      align-items: start;
     }
     .hours {
       margin-top: 0;
