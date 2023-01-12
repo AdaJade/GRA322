@@ -5,6 +5,7 @@ P {
 body {
     font-family: Helvetica, sans-serif;
     margin: 2rem;
+    background-color: lightgray;
 }
 
 
@@ -39,6 +40,7 @@ a:hover {
 .square-1 {
     display: flex;
     border: 0.25pt solid rgb(0, 0, 0);
+    background-color: white;
     width: 71.428571vw;
     height: 71.428571vw;
     margin: auto;
@@ -47,6 +49,7 @@ a:hover {
 .square-2 {
     display: flex;
     border: 0.25pt solid rgb(0, 0, 0);
+    background-color: white;
     width: 42.857143vw;
     height: 42.857143vw;
     margin: auto;
