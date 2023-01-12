@@ -8,6 +8,7 @@ body {
     margin: 2rem;
     background-color: lightgray;
     overflow: hidden;
+    margin: auto;
 }
 
 
@@ -39,12 +40,13 @@ a:hover {
     display: flex;
     width: 100vw;
     height: 100vw;
+    margin: auto;
 }
 
 
 .square-1 {
     display: flex;
-    border: 0.25pt solid rgb(0, 0, 0);
+    border: 0.25pt solid rgb(100, 100, 100);
     background-color: white;
     width: 71.428571vw;
     height: 71.428571vw;
@@ -53,7 +55,7 @@ a:hover {
 
 .square-2 {
     display: flex;
-    border: 0.25pt solid rgb(0, 0, 0);
+    border: 0.25pt solid rgb(100, 100, 100);
     background-color: white;
     width: 42.857143vw;
     height: 42.857143vw;

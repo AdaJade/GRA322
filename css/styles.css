@@ -1,30 +1,33 @@
 P {
-    color:black;
+    color: black;
+    font-size: large;
 }
+
 
 body {
     font-family: Helvetica, sans-serif;
-    margin: 2rem;
+    margin: 3rem;
     background-color: lightgray;
-    font-size: 12pt;
 }
 
 
 ul {
     list-style-type: none;
-    font-size: 2rem;
-    
+    font-size: 1rem;
 }
+
 
 a {
     color:black;
     text-decoration: none;
 }
 
+
 a:hover {
-    color: rgb(99, 193, 255);
+    color: rgb(70, 176, 246);
     text-decoration: underline;
 }
+
 
 .container {
     display: flex;
