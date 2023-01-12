@@ -6,6 +6,7 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 2rem;
     background-color: lightgray;
+    font-size: 12pt;
 }
 
 
@@ -21,7 +22,7 @@ a {
 }
 
 a:hover {
-    color: rgb(105, 0, 128);
+    color: rgb(99, 193, 255);
     text-decoration: underline;
 }
 

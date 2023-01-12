@@ -2,16 +2,18 @@ P {
     color:black;
 }
 
+
 body {
     font-family: Helvetica, sans-serif;
     margin: 2rem;
     background-color: lightgray;
+    overflow: hidden;
 }
 
 
 .back-button {
-    padding-bottom: 3rem;
-    font-size: 1rem;
+        padding-bottom: 3rem;
+        font-size: 1rem;
 }
 
 
@@ -43,52 +45,24 @@ a:hover {
 .square-1 {
     display: flex;
     border: 0.25pt solid rgb(0, 0, 0);
+    background-color: white;
     width: 71.428571vw;
     height: 71.428571vw;
     margin: auto;
 }
-
 
 .square-2 {
     display: flex;
     border: 0.25pt solid rgb(0, 0, 0);
+    background-color: white;
     width: 42.857143vw;
     height: 42.857143vw;
     margin: auto;
 }
-
 
 .square-3 {
     display: flex;
     background-color: rgb(0, 0, 0);
-    width: 14.285714vw;
-    height: 14.285714vw;
-    margin: auto;
-}
-
-
-.square-4 {
-    display: flex;
-    border: 0.25pt solid rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    width: 71.428571vw;
-    height: 71.428571vw;
-    margin: auto;
-}
-
-
-.square-5 {
-    display: flex;
-    background-color: rgb(0, 0, 0);
-    width: 42.857143vw;
-    height: 42.857143vw;
-    margin: auto;
-}
-
-
-.square-6 {
-    display: flex;
-    background-color: rgb(255, 255, 255);
     width: 14.285714vw;
     height: 14.285714vw;
     margin: auto;

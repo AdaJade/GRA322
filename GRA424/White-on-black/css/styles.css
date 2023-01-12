@@ -6,30 +6,33 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 2rem;
     background-color: lightgray;
+    overflow: hidden;
 }
 
 
 .back-button {
-        padding-bottom: 3rem;
-        font-size: 1rem;
+    padding-bottom: 3rem;
+    font-size: 1rem;
 }
 
 
 ul {
     list-style-type: none;
     font-size: 2rem;
-    
 }
+
 
 a {
     color:black;
     text-decoration: none;
 }
 
+
 a:hover {
     color: rgb(105, 0, 128);
     text-decoration: underline;
 }
+
 
 .container {
     display: flex;
@@ -37,23 +40,24 @@ a:hover {
     height: 100vw;
 }
 
+
 .square-1 {
     display: flex;
     border: 0.25pt solid rgb(0, 0, 0);
-    background-color: white;
     width: 71.428571vw;
     height: 71.428571vw;
     margin: auto;
 }
 
+
 .square-2 {
     display: flex;
     border: 0.25pt solid rgb(0, 0, 0);
-    background-color: white;
     width: 42.857143vw;
     height: 42.857143vw;
     margin: auto;
 }
+
 
 .square-3 {
     display: flex;
@@ -63,13 +67,16 @@ a:hover {
     margin: auto;
 }
 
+
 .square-4 {
     display: flex;
     border: 0.25pt solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: 71.428571vw;
     height: 71.428571vw;
     margin: auto;
 }
+
 
 .square-5 {
     display: flex;
@@ -78,6 +85,7 @@ a:hover {
     height: 42.857143vw;
     margin: auto;
 }
+
 
 .square-6 {
     display: flex;
