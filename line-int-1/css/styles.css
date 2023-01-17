@@ -2,6 +2,7 @@ body {
     background-color: lightgray;
     margin: auto;
     overflow: hidden;
+    display: flex;
 }
 
 .page {
@@ -12,25 +13,25 @@ body {
     display: flex;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    margin: auto;
-    display: flex;
-}
-
 
 
 
 
 .add-one-container {
-    grid-template-columns: 1fr;
-    gap: 10px;
     background: white;
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
-    display: grid;
+    display:flex;
+}
+
+.add-one-top {
+    background: black;
+    width: 42.857143vw;
+    height: 1.5vh;
+    margin: auto;
+    margin-top: 0;
+    display: flex;
 }
 
 .add-one {
@@ -38,5 +39,14 @@ body {
     width: 42.857143vw;
     height: 1.5vh;
     margin: auto;
-    display: grid;
+    display: flex;
+}
+
+.add-one-bottom {
+    background: black;
+    width: 42.857143vw;
+    height: 1.5vh;
+    margin: auto;
+    margin-bottom: 0;
+    display: flex;
 }
