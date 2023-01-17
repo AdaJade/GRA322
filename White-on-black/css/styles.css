@@ -4,7 +4,7 @@ P {
 
 body {
     font-family: Helvetica, sans-serif;
-    margin: 2rem;
+    margin: auto;
     background-color: lightgray;
     overflow: hidden;
 }
@@ -37,16 +37,15 @@ a:hover {
 .container {
     display: flex;
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
 }
 
 
 .square-4 {
     display: flex;
-    border: 0.25pt solid rgb(100, 100, 100);
     background-color: rgb(255, 255, 255);
     width: 71.428571vw;
-    height: 71.428571vw;
+    height: 71.428571vh;
     margin: auto;
 }
 
@@ -55,7 +54,7 @@ a:hover {
     display: flex;
     background-color: rgb(0, 0, 0);
     width: 42.857143vw;
-    height: 42.857143vw;
+    height: 42.857143vh;
     margin: auto;
 }
 
@@ -64,6 +63,6 @@ a:hover {
     display: flex;
     background-color: rgb(255, 255, 255);
     width: 14.285714vw;
-    height: 14.285714vw;
+    height: 14.285714vh;
     margin: auto;
 }
