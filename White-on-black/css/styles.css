@@ -1,14 +1,12 @@
-P {
-    color:black;
-}
-
 body {
-    font-family: Helvetica, sans-serif;
-    margin: auto;
     background-color: lightgray;
+    margin: auto;
     overflow: hidden;
 }
 
+P {
+    color:black;
+}
 
 .back-button {
     padding-bottom: 3rem;
