@@ -23,6 +23,7 @@ body {
     height: 42.857143vh;
     margin: auto;
     display:flex;
+    flex-wrap: wrap;
 }
 
 .add-one-top {
@@ -30,7 +31,6 @@ body {
     width: 42.857143vw;
     height: 1.5vh;
     margin: auto;
-    margin-top: 0;
     display: flex;
 }
 
@@ -47,6 +47,5 @@ body {
     width: 42.857143vw;
     height: 1.5vh;
     margin: auto;
-    margin-bottom: 0;
     display: flex;
 }
